@@ -1,0 +1,1765 @@
+---------------------------------------------------------------
+[ 2018-05-15T16:02:24+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.708040s][吞吐率：1.41req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:24+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.841048s][吞吐率：1.19req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] hua.com/ [运行时间：1.487085s][吞吐率：0.67req/s] [内存消耗：1,863.23kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\index.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'flower',
+  3 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.479028s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=0 [ RunTime:0.367021s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=0 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from flower where type=1 order by id desc limit 4 [ RunTime:0.128007s ]
+[ sql ] [ SQL ] select * from flower where type=2 order by id desc limit 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select id,title,description,cover FROM blog order by id desc limit 6 [ RunTime:0.076004s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d.jpg
+[ info ] hua.com/public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d.jpg [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/448347155f8a53ab70cd0ab301900092.jpg
+[ info ] hua.com/public/uploads/20180129/448347155f8a53ab70cd0ab301900092.jpg [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/448347155f8a53ab70cd0ab301900092_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52.jpg
+[ info ] hua.com/public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52.jpg [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979.jpg
+[ info ] hua.com/public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979.jpg [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:30+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.png
+[ info ] hua.com/favicon.png [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,182.44kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.png',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/login.html
+[ info ] hua.com/index/index/login.html [运行时间：0.106007s][吞吐率：9.43req/s] [内存消耗：1,598.63kb] [文件加载：49]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hua.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hua.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/login_html' => '',
+  'account' => '123456',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select * from user where password='e10adc3949ba59abbe56e057f20f883e' AND (email='123456' OR phone='123456') [ RunTime:0.058003s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder.html
+[ info ] hua.com/index/index/myorder.html [运行时间：0.230013s][吞吐率：4.35req/s] [内存消耗：2,262.92kb] [文件加载：58]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'page',
+  3 => 'maxpage',
+  4 => 'orders',
+  5 => 0,
+  6 => 1,
+  7 => 2,
+  8 => 3,
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.073004s ]
+[ sql ] [ SQL ] SELECT `f`.`cover`,`o`.`id`,`o`.`orderid`,`o`.`addtime`,`o`.`uid`,`o`.`expressinfo`,`o`.`phone`,`o`.`status` FROM `orders` `o` INNER JOIN `flower` `f` ON `f`.`id`=`o`.`flowerid` WHERE  `o`.`uid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cart_order` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `cart_order` WHERE  `uid` = 7 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `flower` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: name[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:234]
+[ error ] [8]未定义数组索引: fee[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:235]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:248]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/favicon.png
+[ info ] hua.com/index/index/favicon.png [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,443.59kb] [文件加载：48]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'favicon.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/favicon_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:02:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder.html
+[ info ] hua.com/index/index/myorder.html [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：2,262.95kb] [文件加载：58]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'page',
+  3 => 'maxpage',
+  4 => 'orders',
+  5 => 0,
+  6 => 1,
+  7 => 2,
+  8 => 3,
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `f`.`cover`,`o`.`id`,`o`.`orderid`,`o`.`addtime`,`o`.`uid`,`o`.`expressinfo`,`o`.`phone`,`o`.`status` FROM `orders` `o` INNER JOIN `flower` `f` ON `f`.`id`=`o`.`flowerid` WHERE  `o`.`uid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cart_order` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `cart_order` WHERE  `uid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `flower` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: name[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:234]
+[ error ] [8]未定义数组索引: fee[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:235]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:248]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myask.html
+[ info ] hua.com/index/index/myask.html [运行时间：0.116006s][吞吐率：8.62req/s] [内存消耗：1,718.06kb] [文件加载：51]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myask_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myask[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myask.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'ques',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * from questions WHERE uid=7 [ RunTime:0.046002s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder2.html
+[ info ] hua.com/index/index/myorder2.html [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：1,749.37kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myask.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder2_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder2[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder2.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'orders',
+  3 => 'page',
+  4 => 'maxpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select count(*) as total from orders2 where uid=7 [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT o.id,o.orderid,o.status,f.name,o.expire,
+	      o.fee,o.addtime,o.time,f.cover FROM orders2 as o LEFT JOIN flower as f ON o.flowerid=f.id
+			    WHERE o.uid=7 order by id desc limit 0,5 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/store.html
+[ info ] hua.com/index/index/store.html [运行时间：0.225012s][吞吐率：4.44req/s] [内存消耗：2,265.01kb] [文件加载：57]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'store',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/store_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->store[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\shop.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'flower',
+  3 => 'type',
+  4 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `flower` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `flower` WHERE  `cate` = 1  AND `type` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `cate` = 1  AND `type` = 1 ORDER BY id desc LIMIT 0,9 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/buy/id/22/type/1.html
+[ info ] hua.com/index/index/buy/id/22/type/1.html [运行时间：0.066003s][吞吐率：15.15req/s] [内存消耗：1,726.35kb] [文件加载：51]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/store.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/buy/id/22/type/1_html' => '',
+  'id' => '22',
+  'type' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->buy[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\buy.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'item',
+  3 => 'type',
+  4 => 'webserver',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from flower where id=22 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/buy/id/22/type/favicon.png
+[ info ] hua.com/index/index/buy/id/22/type/favicon.png [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,725.85kb] [文件加载：51]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/buy/id/22/type/1.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/buy/id/22/type/favicon_png' => '',
+  'id' => '22',
+  'type' => 'favicon.png',
+)
+[ info ] [ RUN ] app\index\controller\Index->buy[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\buy.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'item',
+  3 => 'type',
+  4 => 'webserver',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from flower where id=22 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder.html
+[ info ] hua.com/index/index/myorder.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,262.97kb] [文件加载：58]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/buy/id/22/type/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'page',
+  3 => 'maxpage',
+  4 => 'orders',
+  5 => 0,
+  6 => 1,
+  7 => 2,
+  8 => 3,
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `f`.`cover`,`o`.`id`,`o`.`orderid`,`o`.`addtime`,`o`.`uid`,`o`.`expressinfo`,`o`.`phone`,`o`.`status` FROM `orders` `o` INNER JOIN `flower` `f` ON `f`.`id`=`o`.`flowerid` WHERE  `o`.`uid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cart_order` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `cart_order` WHERE  `uid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `flower` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: name[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:234]
+[ error ] [8]未定义数组索引: fee[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:235]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:248]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myadd.html
+[ info ] hua.com/index/index/myadd.html [运行时间：0.182010s][吞吐率：5.49req/s] [内存消耗：1,715.78kb] [文件加载：51]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myadd_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myadd[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myadd.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'all',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from user_address where uid=7 [ RunTime:0.128008s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:02:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder.html
+[ info ] hua.com/index/index/myorder.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,262.95kb] [文件加载：58]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myadd.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'page',
+  3 => 'maxpage',
+  4 => 'orders',
+  5 => 0,
+  6 => 1,
+  7 => 2,
+  8 => 3,
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `f`.`cover`,`o`.`id`,`o`.`orderid`,`o`.`addtime`,`o`.`uid`,`o`.`expressinfo`,`o`.`phone`,`o`.`status` FROM `orders` `o` INNER JOIN `flower` `f` ON `f`.`id`=`o`.`flowerid` WHERE  `o`.`uid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cart_order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `cart_order` WHERE  `uid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `flower` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: name[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:234]
+[ error ] [8]未定义数组索引: fee[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:235]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:248]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+---------------------------------------------------------------
+[ 2018-05-15T16:03:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder2.html
+[ info ] hua.com/index/index/myorder2.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,749.37kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder2_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder2[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder2.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'orders',
+  3 => 'page',
+  4 => 'maxpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select count(*) as total from orders2 where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT o.id,o.orderid,o.status,f.name,o.expire,
+	      o.fee,o.addtime,o.time,f.cover FROM orders2 as o LEFT JOIN flower as f ON o.flowerid=f.id
+			    WHERE o.uid=7 order by id desc limit 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:03:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myask.html
+[ info ] hua.com/index/index/myask.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,718.07kb] [文件加载：51]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myask_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myask[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myask.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'ques',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * from questions WHERE uid=7 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:03:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder.html
+[ info ] hua.com/index/index/myorder.html [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,262.95kb] [文件加载：58]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=vtr2hqra9t8e2pnatmo76p5376',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myask.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'page',
+  3 => 'maxpage',
+  4 => 'orders',
+  5 => 0,
+  6 => 1,
+  7 => 2,
+  8 => 3,
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `f`.`cover`,`o`.`id`,`o`.`orderid`,`o`.`addtime`,`o`.`uid`,`o`.`expressinfo`,`o`.`phone`,`o`.`status` FROM `orders` `o` INNER JOIN `flower` `f` ON `f`.`id`=`o`.`flowerid` WHERE  `o`.`uid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cart_order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `cart_order` WHERE  `uid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `flower` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `flower` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: data[E:\hua\application\index\Data\Fetch.php:139]
+[ error ] [8]未定义数组索引: name[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:234]
+[ error ] [8]未定义数组索引: fee[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:235]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:248]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+[ error ] [8]未定义数组索引: id[E:\hua\runtime\temp\6c29dd378611e2aa56c41bbb4989109a.php:183]
+---------------------------------------------------------------
+[ 2018-05-15T16:42:47+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:47+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] hua.com/ [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,862.53kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\index.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'flower',
+  3 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=0 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select * from flower where type=1 order by id desc limit 4 [ RunTime:0.023001s ]
+[ sql ] [ SQL ] select * from flower where type=2 order by id desc limit 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select id,title,description,cover FROM blog order by id desc limit 6 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/448347155f8a53ab70cd0ab301900092.jpg
+[ info ] hua.com/public/uploads/20180129/448347155f8a53ab70cd0ab301900092.jpg [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/448347155f8a53ab70cd0ab301900092_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979.jpg
+[ info ] hua.com/public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979.jpg [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d.jpg
+[ info ] hua.com/public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d.jpg [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52.jpg
+[ info ] hua.com/public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52.jpg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,182.94kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:42:55+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.png
+[ info ] hua.com/favicon.png [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,182.44kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.png',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:43:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/login.html
+[ info ] hua.com/index/index/login.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,597.93kb] [文件加载：49]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hua.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hua.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/login_html' => '',
+  'account' => '123456',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select * from user where password='e10adc3949ba59abbe56e057f20f883e' AND (email='123456' OR phone='123456') [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:43:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myask.html
+[ info ] hua.com/index/index/myask.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,717.34kb] [文件加载：51]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myask_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myask[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myask.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'ques',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * from questions WHERE uid=7 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:43:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/favicon.png
+[ info ] hua.com/index/index/favicon.png [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,442.89kb] [文件加载：48]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'favicon.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myask.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/favicon_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:43:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/myorder2.html
+[ info ] hua.com/index/index/myorder2.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,748.67kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myorder2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myask.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/myorder2_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->myorder2[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\myorder2.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'orders',
+  3 => 'page',
+  4 => 'maxpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select count(*) as total from orders2 where uid=7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT o.id,o.orderid,o.status,f.name,o.expire,
+	      o.fee,o.addtime,o.time,f.cover FROM orders2 as o LEFT JOIN flower as f ON o.flowerid=f.id
+			    WHERE o.uid=7 order by id desc limit 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:43:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/logout.html
+[ info ] hua.com/index/index/logout.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,389.08kb] [文件加载：44]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hua.com/index/index/myorder2.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hua.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/logout_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->logout[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:43:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] hua.com/index/index/index.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,865.99kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/myorder2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\index.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'flower',
+  3 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=0 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=0 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from flower where type=1 order by id desc limit 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from flower where type=2 order by id desc limit 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select id,title,description,cover FROM blog order by id desc limit 6 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-15T16:43:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/448347155f8a53ab70cd0ab301900092.jpg
+[ info ] hua.com/public/uploads/20180129/448347155f8a53ab70cd0ab301900092.jpg [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,182.96kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/448347155f8a53ab70cd0ab301900092_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:43:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d.jpg
+[ info ] hua.com/public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d.jpg [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,182.96kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/eb5dc4a51da3d5659a84ee6906fbc61d_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:43:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52.jpg
+[ info ] hua.com/public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52.jpg [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,182.96kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/36cbb38db59147062d46b4d460b6aa52_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-15T16:43:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979.jpg
+[ info ] hua.com/public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979.jpg [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,182.96kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180129',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671; PHPSESSID=52h6s0kriql1egim4st0064ft5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://hua.com/index/index/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180129/638ad71a3658bd6a4046825bc2a43979_jpg' => '',
+)
+[ info ] [ LOG ] INIT File

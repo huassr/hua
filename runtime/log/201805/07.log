@@ -1,0 +1,366 @@
+---------------------------------------------------------------
+[ 2018-05-07T15:49:07+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：4.197240s][吞吐率：0.24req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T15:49:07+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：4.197240s][吞吐率：0.24req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T16:34:39+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.309018s][吞吐率：3.24req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T16:34:39+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.309018s][吞吐率：3.24req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T18:44:51+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.690039s][吞吐率：1.45req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T18:44:52+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T18:44:52+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T20:15:57+08:00 ] 192.168.23.1 192.168.23.2 GET /
+[ info ] 192.168.23.1/ [运行时间：5.451312s][吞吐率：0.18req/s] [内存消耗：1,861.99kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.23.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\index.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'flower',
+  3 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.154180s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=0 [ RunTime:1.335076s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=0 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select * from flower where type=1 order by id desc limit 4 [ RunTime:0.202011s ]
+[ sql ] [ SQL ] select * from flower where type=2 order by id desc limit 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select id,title,description,cover FROM blog order by id desc limit 6 [ RunTime:0.085005s ]
+---------------------------------------------------------------
+[ 2018-05-07T21:45:53+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.166010s][吞吐率：6.02req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T21:45:53+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T22:02:28+08:00 ] ::1 ::1 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.868050s][吞吐率：1.15req/s] [内存消耗：1,181.41kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T22:02:28+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] hua.com/favicon.ico [运行时间：0.912052s][吞吐率：1.10req/s] [内存消耗：1,181.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-07T22:02:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] hua.com/ [运行时间：7.331420s][吞吐率：0.14req/s] [内存消耗：1,863.23kb] [文件加载：52]
+[ info ] [ LANG ] E:\hua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_5f4aa36509ee08b412f4647f6d4f1749=1522659924,1522661971,1522671901,1522752671',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4882.400 QQBrowser/9.7.13076.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\hua\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\hua/application/index\view\index\index.html [ array (
+  0 => 'cart_item',
+  1 => 'cart_total',
+  2 => 'flower',
+  3 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.428196s ] mysql:host=127.0.0.1;dbname=hua
+[ sql ] [ SQL ] select sum(num) as num from cart where uid=0 [ RunTime:1.945111s ]
+[ sql ] [ SQL ] select sum(total) as total from cart where uid=0 [ RunTime:0.028001s ]
+[ sql ] [ SQL ] select * from flower where type=1 order by id desc limit 4 [ RunTime:0.085005s ]
+[ sql ] [ SQL ] select * from flower where type=2 order by id desc limit 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select id,title,description,cover FROM blog order by id desc limit 6 [ RunTime:0.046002s ]
